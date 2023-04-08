@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt/Puma.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <img src="../images/unnamed.jpg" id="logo" >
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<div class="dropdown" id="dropdown1">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Categories
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="mens.html">Mens</a></li>
+      <li><a class="dropdown-item" href="women.html">Women</a></li>
+      <li><a class="dropdown-item" href="Children.html">Children</a></li>
+      
+    </ul>
+  </div>
+  <div class="dropdown" id="dropdown1">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Products
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+      <li><a class="dropdown-item" href="#">Shoes</a></li>
+      <li><a class="dropdown-item" href="#">Track Pents</a></li>
+      
+    </ul>
+  </div>
+        <div class="box"><a href="#"><i class="fa fa-globe" style="color: white;float: left;font-size: 30px;"></i></a></div>
+        <div class="box"><a href="#"><i class="fa fa-trash" style="color: white;font-size: 30px;"></i></a></div>
+
+        <div style="margin-left: 500px;">
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width: auto;margin-left: 5px; "class="btn btn-success">Login/Signup</button>
+               <div id="id01" class="modal">
+                    <form class="modal-content animate" action="/action_page.php" method="POST">
+                    <!-- Create an image container -->
+                    <div class="imgcontainer">
+
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <i class="fa fa-user" style="font-size:68px;color: white;"></i>
+                    </div>
+                    <!-- Create a form container -->
+                    <div class="container1" style="margin-left: 440px;">
+                    <!-- Username -->
+                    <label for="uname" style="color: white;"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <!-- Password -->
+                    <label for="psw" style="color: white;"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <!-- Submit Button -->
+                    <button type="submit">Login</button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember Me
+                    </label>
+                    <div>
+                        <a href="Signup.html" style="color: white;">New User</a>
+                    </div>
+                    </div>
+                    <div class="container1" style="background-color: #f1f1f1;margin-left: 440px;">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                   
+
+
+
+            </form>
+        </div>
+</nav>
+<br>
+<br><br>
+<br>
+    <div>
+        <img src="../images/adm2.png" id="adm2" class="image">
+      </div>
+      <br>
+      <div>
+        <img src="../images/adm3.png" id="adm2" class="image">
+      </div>
+    <div>
+        <div id="container">
+            <video id="container video" width="1250px" height="600px" data-fordevice="desktop" data-type="file" class="img-overscale kop-htmlvideo " preload="metadata" playsinline="" autoplay="" loop="" muted="" data-started="true" >
+                <source src="../video/PUMA.mp4" style="width: 1240px" type="video/mp4" />
+            </video>
+            <div class="overlay">
+                <p>RUN PUMA</p>
+                
+            </div>
+        </div> 
+    </div>
+    <div>
+        <table class="table">
+            <tr>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts1.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Mercedes T7 Regular Fit Men's T-Shirt</h4>
+                          <p class="card-text">$40</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts2.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Red Bull Racing Double Bull T-Shirt Men</h4>
+                          <p class="card-text">$54</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="../images/ts3.webp" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">Red Bull Racing Printed T-Shirt Men</h4>
+                              <p class="card-text">$54</p>
+                              <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                            </div>
+                          </div>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts4.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">RED Bull Racing Dynamic Bull Logo Men's T-Shirt</h4>
+                          <p class="card-text">$99</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts5.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">MAPF 1 AOP Logo Printed  Men's T-Shirt</h4>
+                          <p class="card-text">$99</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts6.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Porsche Legacy Graphic T-Shirt 2 Men</h4>
+                          <p class="card-text">$65</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts7.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Ferrari Race Big Shield Men's T-Shirt</h4>
+                          <p class="card-text">$75</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts8.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">BMW M Motorsport Zip Men's Polo</h4>
+                          <p class="card-text">$85</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+                <td>
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="../images/ts9.webp" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">PUMA x RCB Replica Men's 2022 Jersey</h4>
+                          <p class="card-text">$89</p>
+                          <a href="#" class="btn btn-primary add-to-cart" ><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    <br>
+    <br>
+    <div id="feet">
+    <h1 >PUMA – Clothing, Shoes &amp; Accessories</h1>
+    <p>Welcome to PUMA – the Fastest Sports Brand in the World. Shop for Men, Women and Kids Clothing, Shoes & Accessories. Get the Edge in Style & Comfort Now.</p> 
+    </div>
+    <div>
+        <img src="../images/foot.png" alt="Data not found"  id="footi">
+    </div>
+
+</body>
+</html>
